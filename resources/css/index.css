@@ -100,7 +100,8 @@ body {
 #locations {
     height: 500px;
     background-image: url("/resources/img/img-locations-background.jpg");
-    padding-top: 70px;
+    margin-top: 70px;
+    padding-top:70px;
 }
 
 .place {
