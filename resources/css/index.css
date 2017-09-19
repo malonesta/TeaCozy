@@ -1,50 +1,65 @@
-html {
+/*Page Styles*/
+
+body {
     font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    opacity: 0.9;
 }
 
+.flexbox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/*header and navigation*/
+
 #header {
-    font-family: Verdana;
-    font-size: 14px;
-    font-weight: bold;
+    width: 100%;
     display: flex;
     align-items: center;
-    background-color: black;
-
-    
-    
+    height: 69px;
+    position: fixed;
+    z-index: 5; 
+    border-bottom: 1px solid seashell;
 }
 
 .logo {
     display: flex;
     flex-grow: 1;
-    padding-left: 30px;
     align-items: center;
 }
 
 .logo img {
-    margin-right: 12px;
-
+    padding-left: 10px;
+    height: 50px;
 }
 
-
-
 .navigation {
-    display: flex;
-    align-content: center;
-    
+    text-align: right;  
+    flex-grow: 1;
 }
 
 .navigation span {
     display: inline-block;
-    padding: 20px 10px;
- 
+    padding: 20px 10px 20px 10px;
 }
 
 .navigation a {
     color: white;
 }
 
-#content {
-    border: black solid 1px; 
-}
 
+/*rest of content*/
+
+#content {
+    padding: 0 20px;
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
