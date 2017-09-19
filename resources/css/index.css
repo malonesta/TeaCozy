@@ -1,0 +1,50 @@
+html {
+    font-family: Helvetica;
+}
+
+#header {
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    background-color: black;
+
+    
+    
+}
+
+.logo {
+    display: flex;
+    flex-grow: 1;
+    padding-left: 30px;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 12px;
+
+}
+
+
+
+.navigation {
+    display: flex;
+    align-content: center;
+    
+}
+
+.navigation span {
+    display: inline-block;
+    padding: 20px 10px;
+ 
+}
+
+.navigation a {
+    color: white;
+}
+
+#content {
+    border: black solid 1px; 
+}
+
